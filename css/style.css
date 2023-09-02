@@ -141,13 +141,13 @@ header ul li .pt-cta-btn {
 }
 
 .ls-modal form .submit-button, .ls-modal .submit-button {
-    background-color: #055160;
+    background-color: #f9a80b;
     color:#fff;
     font-size: 14px;
 }
 
 .ls-modal form .form-check-input:checked{
-    background-color: #055160;
+    background-color: #f9a80b;
 }
 
 .google-btn {
