@@ -24,7 +24,7 @@ img {
     color: #f9a80b;
 }
 
-.primary-color-background, .primary-color-background-hover {
+.primary-color-background, .primary-color-background-hover:hover {
     background-color: #f9a80b;
     color:#333;
 }
@@ -198,14 +198,27 @@ header ul li .pt-cta-btn {
     background-color: #f9c87c;
 }
 
+@media only screen and (max-width:1400px) {
+   
+    .hero-section .banner-image {
+        background-color: #f9c87c;
+        height:calc(375px - 100px);
+    }
+}
+
+
 @media only screen and (max-width:990px) {
     .hero-section h1{
         font-size: 34px !important;
         margin-top: 18px;
     }
+}
+
+@media only screen and (max-width:768px) {
 
     .hero-section .banner-image {
-        background-color: transparent;
+        background-color: #f9c87c;
+        height:calc(375px - 100px);
     }
 }
 
@@ -854,7 +867,7 @@ footer a:hover {
 
 /* ************************************user profile page******************************* */
 
-/* .user-profile-intro p {
+.user-profile-intro p {
     font-size: 14px;
     max-width:80%;
 }
@@ -872,8 +885,8 @@ footer a:hover {
     font-weight: 400;
     border : none;
     color: #e9feff;
-    border-bottom:2px solid #055160;
-    background-color: #006267;
+    border-bottom:2px solid #f9a80b;
+    background-color: #f9a80b;
 }
 
 .user-profile .policy-card img {
@@ -923,8 +936,20 @@ footer a:hover {
 
 .profile-item-info, .user-intro-details {
     font-size: 14px;
-} */
+}
 
+.topics-card-list .topics-card{
+    display: inline-block;
+    margin: 0 0.5rem 1rem 0;
+    background-color: #efefef;
+    width:13rem;
+    height:11rem;
+    vertical-align: top;
+    padding:1.5rem;
+}
+.topics-card-list .topics-card:hover{
+  background-color: #ffe8bb;
+}
 /* ************************************user profile page******************************* */
 
 /* ************************************create policy page******************************* */
@@ -958,3 +983,103 @@ footer a:hover {
 } */
 
 /* ************************************create policy page******************************* */
+
+
+
+/* *****************************************admin panel designs********************************* */
+.admin-panel-content, .admin-panel-content .container, .admin-panel-content .container .row, .admin-panel-content .container .row .col-4, .admin-panel-content .container .row .col-4 .admin-panel-sidebar {
+    /* min-height : 90vh; */
+}
+
+.admin-panel-sidebar {
+    padding : 24px 0 0;
+    position: fixed;
+    width:210px;
+}
+
+.admin-panel-sidebar .accordion-item {
+    border:none;
+    border-radius:0;
+    border-bottom:1px solid #f9c87c;
+}
+
+
+.admin-panel-sidebar .accordion-item .accordion-button {
+    color:#000;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+.admin-panel-sidebar .accordion-item .accordion-button::after {
+    display :none;
+}
+
+.admin-panel-sidebar .accordion-item .accordion-button:focus {
+    box-shadow: none;
+}
+
+.admin-panel-sidebar .item-accordion .accordion-button {
+    padding:0 24px 0 0;
+}
+
+.admin-panel-sidebar h4 {
+    font-size: 14px;
+    padding: 0 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+    height:44px;
+    line-height: 44px;
+}
+
+.admin-panel-sidebar .accordion-body {
+    padding: 0;
+}
+
+.admin-panel-sidebar .accordion-body > div{
+    background-color: #f1f1f1;
+    border-bottom:1px solid #f9c87c;
+}
+
+.admin-panel-sidebar .accordion-body a{
+    padding: 0 1.25rem;
+    display: block;
+    height:44px;
+    line-height: 44px;
+    font-size: 14px;
+    color:#000;
+}
+
+.admin-panel-sidebar .accordion-body a.active, .admin-panel-sidebar .accordion-body a:hover{
+    background-color: #f9c87c;
+}
+
+.admin-panel-content .project-list-card {
+    box-shadow: 0px 0px 2px #bbb;
+    padding: 12px;
+    background-color: #f1f1f1;
+}
+
+.admin-panel-content .project-list-card.urgent{
+    background-color: #ffeded;
+    border-bottom: 2px solid red;
+}
+
+.admin-panel-content .project-list-card:hover{
+    background-color: #d8fdff;
+}
+
+.admin-panel-content select{
+    
+}
+
+.admin-panel-content .project-list-card h2{
+    font-size: 21px;
+}
+
+.admin-panel-content .project-list-card p{
+    font-size: 14px;
+    color: #777;
+    margin:4px 0;
+}
+
+/* *****************************************admin panel designs********************************* */
