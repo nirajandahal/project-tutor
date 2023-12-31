@@ -1,3 +1,4 @@
+<<<<<<< HEAD:css/style.css
 body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -1083,3 +1084,965 @@ footer a:hover {
 }
 
 /* *****************************************admin panel designs********************************* */
+=======
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color:#333;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    width:100%;
+}
+
+.form-select:focus {
+    box-shadow: none;
+}
+
+.header-link {
+    color:#333;
+}
+
+.primary-color , .primary-color-hover{ 
+    color: #f9a80b;
+}
+
+.primary-color-background, .primary-color-background-hover {
+    background-color: #f9a80b;
+    color:#333;
+}
+
+.primary-color-outline , .primary-color-outline-hover{
+
+}
+
+.secondary-color , .secondary-color-hover{ 
+   
+}
+
+.secondary-color-background, .secondary-color-background-hover {
+    background-color: #f9c87c;
+    color:#000;
+}
+
+.secondary-color-outline , .secondary-color-outline-hover{
+
+}
+
+.primary-link{
+    color:#fd5000;
+}
+
+.pt-cta-btn{
+    background-color: #f9a80b;
+    color:#333;
+    padding:0.6rem 1rem;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow : 2px 2px 8px #777;
+}
+.pt-cta-btn:hover {
+    box-shadow: none;
+}
+
+.pt-links {
+    color: #ff6d2a;
+}
+
+
+.hero-section .pt-cta-btn{
+    margin:20px 0;
+}
+
+.mobile-nav .pt-cta-btn{
+    padding: 4px 8px;
+    font-size: 14px;
+}
+
+
+/* constant css section above here*/
+
+.header-links ul li a, .offcanvas-body ul li a{
+    color:#000;
+    font-weight: 500;
+    font-size: 14px;
+    /* margin: 0 14px 0 0; */
+}
+
+.header-links ul li .pt-cta-btn {
+    margin:0 0 0 8px;
+}
+
+.header-links ul li a:hover{
+    color: #055160;
+}
+
+header{
+    font-weight: 500;
+    /* background-color: #d8fdff; */
+}
+
+/* header .pt-logo{
+    color:#000;
+    max-width: 180px;
+} */
+
+header ul li .pt-cta-btn {
+    padding: 0.6rem 1rem;
+}
+
+.header-top {
+    
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.header-top .social-icons a {
+    color:#333;
+    display: inline-block;
+    margin:0 6px 0 0;
+}
+
+@media only screen and (max-width:540px){
+    .header-links ul li a.nav-link {
+        padding: 0 0.4rem;
+        font-weight: 600;
+    }
+}
+
+
+
+
+/* login/signup form */
+.ls-modal p {
+    font-weight: 400;
+    font-size: 18px;
+}
+.ls-modal form label {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.ls-modal form .submit-button, .ls-modal .submit-button {
+    background-color: #f9a80b;
+    color:#fff;
+    font-size: 14px;
+}
+
+.ls-modal form .form-check-input:checked{
+    background-color: #f9a80b;
+}
+
+.google-btn {
+    background-color: #ea4335;  
+    font-size: 12px; 
+}
+
+.facebook-btn {
+    background-color: #3b5998;
+    font-size: 12px;
+}
+.ls-modal a {
+    color: #055160;
+    font-size: 12px;
+}
+/* login/signup form */
+
+/* ***********************hero sections ************************************ */
+
+.hero-section {
+    min-height:80vh;
+    display:flex;
+    align-items: center;
+    color:#333;
+}
+
+.hero-section p {
+    color:#777;
+}
+
+.hero-section .banner-image {
+    background-color: #f9c87c;
+    border-radius: 25% 10% 25% 5%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section .project-list-section a{
+    color:#008dd3;
+    font-weight: 400;
+    border-bottom:1px solid #bbb;
+    display: inline-block;
+    margin: 0 0 12px 0;
+    padding: 8px 12px;
+}
+
+.hero-section .project-list-section a:hover{
+    background-color: #f9c87c;
+}
+
+@media only screen and (max-width:990px) {
+    .hero-section h1{
+        font-size: 34px !important;
+        margin-top: 18px;
+    }
+
+    .hero-section .banner-image {
+        background-color: transparent;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .hero-section {
+        min-height:80vh;
+    }
+
+    .hero-section .carousel .carousel-inner{
+        height:35vh;
+    }
+
+    .hero-section .carousel .carousel-inner img{
+       height:100%;
+    }
+
+    .hero-section h1{
+        margin:1rem 0 0 0;
+    }
+
+    .hero-section .project-list-section a {
+        font-size: 14px;
+    }
+
+    .offcanvas-body ul li a.nav-link {
+        margin: 0 0 16px;
+        padding:0 0 4px 0;
+        font-weight: 600;
+        border-bottom : 1px solid #006267;
+    }
+
+    .offcanvas-body ul li a.pt-cta-btn {
+        padding: 6px 12px;
+        border:none;
+    }
+}
+
+
+/* ***********************hero sections ************************************ */
+
+/* ***********************our speciality sections ************************************ */
+.our-speciality-section {
+    position: relative;
+    padding:120px 0;
+}
+
+.our-speciality-section:after {
+    position: absolute;
+    content:'';
+    display: block;
+    height:3px;
+    width:20%;
+    background-color: #f9a80b;
+    top:0;
+    left:0;
+    transition: 0.8s;
+}
+
+.our-speciality-section:hover:after{
+    width:100%;
+    transition: 0.8s;
+}
+
+.our-speciality-section .services-list div {
+    box-shadow: none;
+}
+
+.our-speciality-section .services-list div:hover {
+background-color: transparent;
+}
+
+.our-speciality-section .services-list a {
+    width:230px;
+    height:230px;
+    background-color: #efefef;
+    border-radius: 25% 10%;
+    transition: 0.3s;
+}
+
+.our-speciality-section .services-list a:hover {
+    border-radius: 5%;
+    transition: 0.3s;
+}
+
+.our-speciality-section .services-list div:hover i {
+    color:#f9a80b;
+    font-weight: normal;
+}
+
+.our-speciality-section .services-list div:hover p {
+    color:#333;
+    font-weight: normal;
+}
+
+
+/* ***********************our speciality sections ************************************ */
+
+/* ******************************* Projects list section *************************** */
+.projects-section {
+    position: relative;
+}
+
+.projects-section:after {
+    position: absolute;
+    content:'';
+    display: block;
+    height:3px;
+    width:20%;
+    background-color: #f9a80b;
+    top:0;
+    right:0;
+    transition: 0.8s;
+}
+
+.projects-section:hover:after{
+    width:100%;
+    transition: 0.8s;
+}
+
+
+.services-list div{
+    text-align: center;
+    /* border-bottom : 4px solid #8b8b8b;   */
+        /* background-color: #ffe9c9; */
+        border-radius: 5%;
+        box-shadow: 0px 0px 7px #d3d3d3;
+}
+
+.services-list div:hover {
+    background-color: #f9c87c;
+   border-bottom:none;
+}
+
+.services-list div:hover i, .services-list div:hover p {
+    color:#fff;
+    font-weight: 600;
+}
+
+.services-list a{
+    display: inline-block;
+    padding: 2rem;
+    min-width:148px;
+    min-height:148px;
+    color:#333;
+}
+.services-list i {
+    font-size: 42px;
+    color: #f9a80b;
+}
+
+ .services-list img{
+    height:60px;
+    width:60px;
+}
+
+.our-partners li a:hover{
+    background-color: #fff;
+}
+
+.services-list h6{
+    font-size: 16px;
+    margin: 1rem 0 0.4rem 0;
+    font-weight: 600;
+}
+
+.services-list p{
+    font-size:12px;
+    line-height: 14px;
+}
+
+
+/* ******************************* Projects list section *************************** */
+
+/* *************************contact us *************************************** */
+.cta-section {
+    
+   background-color: #ffe9c9;
+}
+.contact-us {
+   padding: 180px 0 120px;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form input[type="number"], .contact-form select, .contact-form option, .contact-form input[type="date"]{
+    height:50px; 
+    background-color: #f5f0e8;
+}
+.contact-form textarea {
+    background-color: #f5f0e8;
+}
+.contact-form input[type="date"] {
+    padding: 15px;
+    width:100%;
+    border: 1px solid #ced4da;
+}
+
+.contact-form .checkbox-div{
+    display: inline-block;
+    margin:0 8px 0 0;
+    font-weight: normal;
+}
+
+.contact-form .form-check-input:checked {
+    background-color: #f9a80b;
+    border-color: #f9a80b;
+}
+
+
+
+/* ********************************* contact us ************************************* */
+
+
+/* how we work section */
+/* .how-we-work .work-steps{
+   background-image: linear-gradient(to right, #006267, #055160);
+    margin:0 0 8px 0;   
+    position: relative; 
+    color:#d8fdff;
+    box-shadow: 2px 4px 12px #777;
+    transition: 0.2s;
+    border-radius : 5px 0 0 8px;
+    cursor: pointer;
+}
+
+.how-we-work .work-steps:hover {
+    background-image: linear-gradient(to right,#055160, #006267);
+    background-color: #e9feff;
+    transition:0.2s;
+    box-shadow: 2px 2px 4px #777 inset;
+}
+
+.how-we-work h2{
+    font-size: 28px;
+    font-size: 21px;
+    font-weight: 500;
+    margin: 0 0 18px 60px;
+}
+
+.how-we-work p {
+    margin: 0 0 0 60px;
+    font-size: 14px;
+}
+
+.how-we-work a {
+    display: inline-block;
+    margin: 12px 0 0 60px;
+    padding: 6px 8px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #ff6d2a;
+    box-shadow: 1px 2px 4px #444;
+    border-radius : 5px;
+}
+
+.how-we-work span {
+    color: #fff;
+    font-size: 21px;
+    background-color: #ff6d2a;
+    position: absolute;
+    top: 13%;
+    left:18px;
+    height:50px;
+    line-height: 50px;
+    width:50px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 600;
+    border-right:2px solid #fff;
+} */
+
+/* how we work section */
+
+/* about insurance bazaar
+.about-insurance-bazaar p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.about-insurance-bazaar .how-we-work{
+    margin:5rem 0;
+}
+
+
+.recommended-popular .filter-user-form form {
+    padding: 30px 20px;
+    box-shadow: 2px 2px 6px #e3e3e3;
+    background-color: #6fb4b7;
+}
+
+.recommended-popular .filter-user-form form select {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    border: none;
+    background-color: #e9feff;
+}
+
+.recommended-popular .filter-user-form form:hover {
+    box-shadow: 4px 4px 18px #055160;
+} */
+/* about insurance bazaar */
+
+/* recommended sections */
+/* .policy-card-2 {
+    background-color: #e9feff;
+    padding:18px;
+} */
+/* recommended sections */
+
+/* our partners */
+/* .our-partners {
+    background-color: #e9feff;
+} */
+/* our partners */
+
+
+/* testimonials section */
+/* .testimonials-section {
+    background-color: #d8fdff;
+}
+
+.testimonials-section .testimonials-carousel img{
+    height:200px;
+    width:200px;
+}
+
+.testimonials-carousel .carousel-control-next-icon,.testimonials-carousel .carousel-control-prev-icon {
+    background-color: #055160;
+    height:60px;
+    width:60px;
+    display: inline-block;
+} */
+/* testimonials section */
+
+
+
+
+/* footer section */
+footer {
+    background-color: #393939; 
+}
+
+.footer-navigation {
+    background-color: #333;
+}
+
+footer a {
+    color:#e9feff;
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-bottom p {
+    margin:0;
+    font-size: 10px;
+    color:#e9feff;
+}
+
+@media only screen and (max-width : 990px) {
+    .footer-navigation a {
+        font-size: 12px;
+        margin:0 8px 0 0;
+        text-decoration: underline;
+    }
+}
+/* footer section */
+
+
+/* *****************************project detail page********************************** */
+.page-banner {
+    /* background-color: #ffe9c9; */
+    color:#333;
+    padding: 80px;
+}
+
+.project-detail-summary {
+    background-color: #f7f7f7;
+}
+
+.project-details-benefits i {
+    font-size: 16px;
+    margin:0 6px 0 0;
+    color:#00922c;
+}
+.project-details-benefits i.bi-x-circle-fill {
+    color:#d34848;
+}
+
+.project-detail-summary span {
+    font-size: 12px;
+    background-color: #f1f1f1;
+    padding: 0 4px;
+}
+
+.project-detail-summary .ret-amt {
+    color:#00922c;
+}
+
+.project-card i {
+    font-size: 32px;
+}
+
+.project-detail h3 {
+    border-bottom:2px solid #f9a80b;
+    padding: 0 0 12px;
+}
+
+/* .policy-filter-section .filter-options {
+    background-color: #e9feff;
+}
+
+.policy-filter-section .filter-user-form label {
+    color:#444;
+}
+
+.policy-filter-section .profile-tabs .nav-link {
+    padding: 2px 4px;
+    color:#055160;
+    font-size: 14px;
+}
+
+.policy-filter-section .profile-tabs .nav-link.active{
+    background: none;
+    color:#055160;
+    border-bottom: 1px solid #055160;
+}
+
+.filter-options h5 span {
+    display: inline-block;
+    margin: -2px 6px 0 0;
+    font-weight: 600;
+}
+
+.filter-user-form label{
+    color:#fff;
+    font-size: 12px;
+}
+
+.policy-card {
+    box-shadow: 1px 1px 5px #e3e3e3;
+    min-height: 180px;
+}
+
+.policy-card:hover {
+    background-color: #e9feff;
+    box-shadow: none;
+}
+
+.policy-card img{
+    width:100%;
+}
+
+.policy-card a.pt-cta-btn{
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+.policy-card span {
+    font-size: 12px;
+    background-color: #f1f1f1;
+    padding: 0 4px;
+}
+
+.policy-card .ret-amt {
+    color:#00922c;
+}
+
+
+.filter-selected-summary p {
+    font-size: 12px;
+    color:#000;
+}
+
+@media only screen and (max-width:1200px) {
+    .policy-card a.pt-cta-btn {
+        font-size: 12px;
+        padding: 4px 6px;
+    }
+
+}
+
+@media only screen and (max-width:990px) {
+    .filter-user-form label {
+        font-size: 12px;
+    }
+
+    .filter-user-form .form-select , .filter-user-form .form-select option {
+        font-size: 12px;
+    }
+
+    .policy-card p {
+        font-size: 13px;
+    }
+
+    .policy-card h4 {
+        font-size: 18px;
+    }
+
+    .policy-card span {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .filter-options  {
+        margin:0 0 1rem 0;
+    }
+} */
+
+
+/* *****************************project detail page********************************** */
+
+/* *****************************product detail page********************************** */
+
+/* .product-detail-section p { 
+    font-size: 14px;
+}
+.product-detail-section .product-detail-description {
+    max-height : 35vh;
+    overflow : auto;
+}
+
+.product-detail-description strong{
+    color:#055160;
+}
+
+@media only screen and (max-width : 990px) {
+    .product-detail-section h1 {
+        font-size: 1.6rem !important;
+    }
+} */
+
+/* *****************************product detail page********************************** */
+
+
+
+/* *****************************insurance detail page********************************** */
+/* .insurance-logo img{
+    min-height: 250px;
+}
+
+.insurance-detail-summary span {
+    font-size: 12px;
+    background-color: #f1f1f1;
+    padding: 0 4px;
+}
+
+.insurance-detail-summary .ret-amt {
+    color:#00922c;
+}
+
+.insurance-card i {
+    font-size: 38px;
+} */
+/* *****************************insurance detail page********************************** */
+
+
+/* *****************************checkout page********************************** */
+.page-banner-dark {
+    background-color: #055160;
+    color:#e9feff;
+}
+
+.project-order span {
+    min-width: 50%;
+}
+.checkout-form {
+    padding:1rem;
+}
+
+.checkout-form  .btn-check:focus+.btn,.checkout-form   .btn:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(249,168,11);
+}
+
+.card-info-checkout {
+    background-color: #006267;
+    color:#fff;
+}
+
+.card-info-checkout .btn-check:checked+.btn-outline-success,.card-info-checkout .btn-outline-success:hover {
+    color: #fff;
+    background-color: #006267;
+    border-color: #006267;
+}
+
+.card-expiration-date .form-select {
+    display: inline-block;
+    width:45%;
+}
+
+.project-order-summary {
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.wallet-image img{
+    width: 180px;
+}
+
+
+/* *****************************checkout page********************************** */
+
+
+/* ************************************compare page******************************* */
+
+/* .comparison-row {
+    overflow: auto;
+}
+
+.comparison-table {
+    max-width: 900px;
+    font-size: 14px;
+}
+
+.comparison-table img {
+    width:300px;
+    height:140px;
+}
+
+.comparison-table h4{
+    color:#055160;
+}
+
+.comparison-table .card-text .comparison-table-number {
+    font-size: 21px;
+}
+
+.comparison-table .card-text .comparison-table-number small {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.comparison-table a {
+    display: block;
+} */
+
+/* ************************************compare page******************************* */
+
+
+
+/* ************************************user profile page******************************* */
+
+/* .user-profile-intro p {
+    font-size: 14px;
+    max-width:80%;
+}
+
+.profile-tabs {
+    border: none;
+}
+
+.profile-tabs li a.nav-link{
+    color:#055160;
+    border:none;
+}
+
+.profile-tabs .nav-link.active {
+    font-weight: 400;
+    border : none;
+    color: #e9feff;
+    border-bottom:2px solid #055160;
+    background-color: #006267;
+}
+
+.user-profile .policy-card img {
+    width:200px;
+}
+
+.user-profile-nav {
+    margin: 0 0 30px 0;
+}
+
+.user-profile-nav a{
+    display: inline-block;
+    margin:0 6px 0 0;
+    font-size: 14px;
+    color:#055160;
+    padding: 2px 6px;
+    border-bottom: 1px solid #055160;
+}
+
+.user-profile-nav a:hover{
+    background-color: #d8fdff;
+}
+
+@media only screen and (max-width:575px) {
+    .user-profile-menu {
+        min-height: auto;
+        display: flex;
+        justify-content: space-between;
+        border:none;
+        box-shadow: none;
+    }
+
+    .user-profile-menu a{
+        padding:0;
+        font-size: 14px;
+    }
+}
+
+.profile-section-heading h6{
+    font-size: 12px;
+    color:#777;
+}
+
+.profile-personal-details {
+    font-size: 14px;
+}
+
+.profile-item-info, .user-intro-details {
+    font-size: 14px;
+} */
+
+/* ************************************user profile page******************************* */
+
+/* ************************************create policy page******************************* */
+
+/* .create-policy h6 {
+    line-height: 26px;
+    color: #444;
+}
+
+.form-check-input:checked {
+    background-color: #055160;
+    border-color: #055160;
+}
+
+.search-form {
+    box-shadow: 1px 1px 2px #6fb4b7;
+}
+
+.search-form button{
+    background-color: #055160;
+    color:#fff;
+}
+
+.search-form button:hover {
+    background-color: #fd5000;
+    color:#fff;
+}
+
+.search-form button:focus, .search-form input[type= text]{
+    box-shadow: none;
+} */
+
+/* ************************************create policy page******************************* */
+>>>>>>> ffae2a963b3f6d4962a6ae3ea4dd0c039fa64f90:project-assign/html_design/css/style.css
